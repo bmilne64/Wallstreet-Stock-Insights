@@ -1,7 +1,6 @@
 Attribute VB_Name = "Module2"
 Sub ticker():
 
-'make program run on all sheets
 Dim ws As Worksheet
 
 For Each ws In Sheets
@@ -71,6 +70,7 @@ percent_decrease = 0 'to define a value for greatest percent decrease to start f
        
          'if statement for change formulas
         If ws.Cells(I + 1, 1).Value <> ws.Cells(I, 1) Then
+            totalsv = totalsv + ws.Cells(I, 7) 'to include the last row
             ws.Cells(j, 9).Value = ticker      'places the value from <ticker> column in the ticker column
             ws.Cells(j, 12).Value = totalsv  'places the value from <vol> column in the tsv column
             closeprice = ws.Cells(I, 6).Value  'defining the value of closeprice
@@ -154,4 +154,3 @@ Range("I1:Q" & lastrow).ClearFormats
 Next ws 'loop into next worksheet in the workbook
 
 End Sub
-
