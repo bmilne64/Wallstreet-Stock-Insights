@@ -1,6 +1,6 @@
 ## Wallstreet Stock Insights 
 
-Analyzes Political and Financial Data using Python 
+Analyzes Financial Data using VBA
 
 ## Objectives
 
