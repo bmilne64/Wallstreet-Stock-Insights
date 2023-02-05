@@ -6,13 +6,13 @@ Analyzes Political and Financial Data using Python
 
 ### Step 1 - Stock Outputs 
 
-* Create a script that loops through all the stocks for one year and outputs the following information:
+* Create a script that loops through all the stocks for one year (2018) and outputs the following information:
     * The ticker symbol
     * Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year
     * The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year
     * The total stock volume of the stock
 
-![2018](images/2018.png)
+![](images/2018.png)
 
 ### Step 2 - Add Functionality
 
@@ -23,9 +23,10 @@ Analyzes Political and Financial Data using Python
 ### Step 3 - Multiple Years
 
 * Make the appropriate adjustments to the VBA script to enable it to run on every worksheet (every year) at once
-
-[2019](images/2019.png)
-[2020](images/2020.png)
+    * 2019
+![](images/2019.png)
+    * 2020
+![](images/2020.png)
 
 ---------------------------------------------------
 
